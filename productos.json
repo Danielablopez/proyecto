@@ -1,0 +1,58 @@
+{
+    "cantidad": 3,
+    "inicio": 0,
+    "parametros": {},
+    "productos": [
+      {
+        "id": "01",
+        "nombre": "Ciruelo",
+        "imagen": "imagenes/ciruelo.jpg",
+        "alt": "Prunus domestica",
+        "descripcion": "Arbol de tamaño medio que puede alcanzar los 5 o 6 metros de altura, posee hojas pecioladas, dentadas y de punta aguda.",
+        "valor": "$5.000.-",
+        "puntuacion": "⭐⭐⭐⭐⭐"
+      },
+      {
+        "id": "02",
+        "nombre": "Durazno",
+        "imagen": "imagenes/durazno.jpg",
+        "alt": "Prunus persica",
+        "descripcion": "Es un arbol de forma arbustiva, copa amplia y de pequeño tamaño, que crece hasta los 4-10 metros de altura, el tronco es delgado, de corteza color gris.",       
+        "valor": "$5.500.-",
+        "puntuacion": "⭐⭐⭐⭐⭐"
+      },
+      {
+        "id": "03",
+        "nombre": "Manzano",
+        "imagen": "imagenes/manzano.jpg",
+        "alt": "Malus domestica",
+        "descripcion": "Es un arbol de mediano tamaño 4 metros de altura,inerme,caducifolio, de copa redondeada abierta y numerosas ramas que se desarrollan casi horizontalmente.",       
+        "valor": "$6.000.-",
+        "puntuacion": "⭐⭐⭐⭐⭐"
+      },
+      {
+        "id": "04",
+        "nombre": "Naranjo",
+        "imagen": "imagenes/naranjo.jpg",
+        "alt": "Citrus sinensis",
+        "descripcion": "Arbol frutal de tamaño mediano, de tres a cinco metros de altura, con copa redondeada y ramas regulares.Un solo tronco,derecho y cilindrico, verdoso primero y gris despuesSus flores blancas, llamadas azahar, nacen aisladas o en racimos y son sumamente fragantes.",
+        "valor": "$6.000.-",
+        "puntuacion": "⭐⭐⭐⭐⭐"
+      },
+      {
+        "id": "05",
+        "nombre": "Limonero",
+        "imagen": "imagenes/limonero.jpeg",
+        "alt": "Citrus sinensis",
+        "descripcion": "Arbol frutal de tamaño pequeño, con numerosas ramas con espinas duras y gruesas, y de copa amplia y redondeada.",
+        "valor": "$6.000.-",
+        "puntuacion": "⭐⭐⭐⭐⭐"
+      }
+      
+     
+     
+     
+    ],
+    "total": 5
+  }
+  

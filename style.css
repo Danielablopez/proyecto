@@ -1,0 +1,239 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500&display=swap');
+:root {
+  --colorFuente: #fffadd;
+  --colorFondoItems: #ffffff;
+  --colorTitulo: #91c457;
+  --colorSubTitulo: #b55a5a;
+  --colorBackground: linear-gradient(#eba4dd, #f896b59d);
+  --colorBotonesHover: #709d09;
+  --colorDescripcion: #568536;
+  --fuenteMedia: 2rem;
+  --fuenteBaja: 1rem;
+}
+.seccion-oscura {
+  color: white;
+  background-color: #bf49af;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: var(--colorBackground);
+  font-family: "League Spartan", system-ui, sans-serif;
+}
+
+header {
+  height: 128px;
+}
+
+/*Banner styles*/
+.banner {
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url("https://cdn.pixabay.com/photo/2016/12/29/19/36/peach-1939218_640.jpg");
+}
+
+.banner-container {
+  text-align: center;
+  padding: 15% 0;
+}
+
+.banner h1 {
+  margin: 0;
+  color: white;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+  font-size: 62px;
+  font-weight: bold;
+}
+
+.banner p {
+  font-size: 30px;
+  color: white;
+  opacity: 0.7;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+
+h1 {
+  color: var(--colorTitulo);
+  font-size: 2rem;
+  text-align: center;
+  font-style: italic;
+  padding-top: 15px;
+  text-shadow: 2px 2px #000;
+}
+
+h3 {
+  color: var(--colorSubTitulo);
+  text-align: center;
+  text-shadow: 2px 2px #000;
+}
+
+.header-titulos {
+  border-bottom: 1px solid transparent;
+  border-image: linear-gradient(to left, transparent, #fff, transparent) 1;
+  height: 128px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 50px;
+  padding: 20px;
+  justify-items: center;
+}
+
+.grid-item {
+  background-color: var(--colorFondoItems);
+  color: var(--colorSubTitulo);
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  text-align: center;
+  font-size: 1.2em;
+  box-shadow: 1px 1px 5px #000;
+  transition: 0.5s;
+  
+}
+.detalles-producto {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#descripcion {
+  font-size: 1.5rem;
+  padding: 0 20px;
+  color: var(--colorDescripcion);
+}
+
+h4 {
+  font-size: 1.2rem;
+}
+
+#nombre {
+  text-align: center;
+  font-size: 3em;
+  color: var(--colorDescripcion);
+
+}
+
+#imagen {
+  height: 200px;
+  width: 200px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 4px #000;
+}
+
+#imagen-producto {
+  margin: auto;
+  height: 350px;
+  width: 350px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 4px #000;
+}
+
+#descripcion {
+  font-size: 2rem;
+  font-style: italic;
+  text-align: center;
+}
+
+#valor {
+  font-size: 1.5em;
+}
+
+#puntuacion {
+  margin: 10px 0;
+}
+
+a {
+  display: grid;
+  -webkit-appearance: button;
+  -moz-appearance: button;
+  appearance: button;
+  text-decoration: none;
+  border-radius: 10px;
+  padding: 15px;
+  background-color: var(--colorFondoItems);
+  color: var(--colorSubTitulo);
+  transition: 1s;
+  border: none;
+  box-shadow: 2px 2px 4px #000;
+  &:hover {
+    color: var(--colorFondoItems);
+    background-color: var(--colorBotonesHover);
+    transition: 1s;
+    /* box-shadow: 1px 1px  var(--colorBackgrund); */
+  }
+}
+
+.ver {
+  padding: 5px 10px;
+  margin-top: 15px;
+  font-size: 1rem;
+}
+  /* Pie de pagina (footer) */
+
+footer {
+  min-height: 150px;
+}
+
+.footer-logo {
+  height: 80px;
+  width: 80px;
+  margin: 10px;
+}
+
+.footer-texto {
+  font-size: 1.5rem;
+  padding: 20px;
+  margin-bottom: 30px;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.iconos-redes-sociales a {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2px;
+  margin: 10px;
+  border: 2px solid rgb(213, 120, 244);
+  border-radius: 50%;
+  transition: all 0.2s ease-in;
+}
+
+.iconos-redes-sociales i {
+  color: rgb(217, 95, 207);
+  font-size: 1.5rem;
+  transition: all 0.2s ease-in;
+}
+
+.iconos-redes-sociales a:hover {
+  background-color: white;
+  border: 2px solid rgb(13, 110, 253);
+}
+
+.iconos-redes-sociales a:hover i {
+  color: black;
+}
+
+.derechos-de-autor {
+  font-size: 15px;
+  color: #aeaeae;
+  padding: 20px;
+}
+
+@media screen and (max-width: 719px) {
+  .grid-item {
+    -webkit-filter: grayscale(0);
+    filter: grayscale(0);
+  }
+}
