@@ -169,7 +169,7 @@ a {
     color: var(--colorFondoItems);
     background-color: var(--colorBotonesHover);
     transition: 1s;
-    /* box-shadow: 1px 1px  var(--colorBackgrund); */
+
   }
 }
 
