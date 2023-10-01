@@ -1,4 +1,6 @@
-//creo una funcion asincronicaen donde luego de esperar por el fetch devuelvo la variable "datos"
+//creo una funcion asincronicaen donde luego de esperar por el fetch devuelvo 
+
+//la variable "datos"
 
 async function getJson() {
   const respuesta = await fetch("./productos.json");
