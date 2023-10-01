@@ -1,27 +1,23 @@
-//creo una funcion asincronicaen donde luego de esperar por el fetch devuelvo 
-
-//la variable "datos"
-
+// cree una funcion asincrona
 async function getJson() {
-  const respuesta = await fetch("productos.json");
+  const respuesta = await fetch("./productos.json");
   const datos = await respuesta.json();
   return datos;
 }
-//llamo a la funcion async y con el THEN me aseguro que ya termino de hacer lo que tenia que hacer
-// dentro del THEN pongo todo loque quiero que haga luego con todos los productos!
+
 document.addEventListener("DOMContentLoaded", () => {
   const gridProductos = document.getElementById("grid-productos");
-  
+  // Llamada a la función para obtener los productos
   getJson().then((datosProductos) => {
-    
+    // Si hay productos para mostrar, almacena la información en localStorage y muestra los mismos
     if (datosProductos) {
       localStorage.setItem("productos", JSON.stringify(datosProductos));
       datosProductos.productos.forEach((producto) => {
-       
+        // 1- crear uhn div para cada producto
         const gridItem = document.createElement("div");
-        
+        // 2 agregar la clase nombre al div que contiene el nombre
         gridItem.classList.add("grid-item");
-       
+        // 3- agregar etiqueta h4 con el texto del titulo
         gridItem.innerHTML = `
           
     
