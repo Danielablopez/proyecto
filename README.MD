@@ -1,0 +1,1 @@
+El proyecto me resulto complejo a la hora de organizar la funcionalidad de JS. tuve dificultad con la incorporacion de las funcion asincronica, y con respecto a las estrellas de puntuación del producto lo realice con string

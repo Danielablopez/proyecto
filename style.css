@@ -3,17 +3,17 @@
 :root {
   --colorFuente: #fffadd;
   --colorFondoItems: #ffffff;
-  --colorTitulo: #91c457;
-  --colorSubTitulo: #b55a5a;
-  --colorBackground: linear-gradient(#eba4dd, #f896b59d);
-  --colorBotonesHover: #709d09;
-  --colorDescripcion: #568536;
+  --colorTitulo: #4c4d4b;
+  --colorSubTitulo: #7c6767;
+  --colorBackground: linear-gradient(#e6c3df, #cea1d29d);
+  --colorBotonesHover: #974d81;
+  --colorDescripcion: #2e342a;
   --fuenteMedia: 2rem;
   --fuenteBaja: 1rem;
 }
 .seccion-oscura {
   color: white;
-  background-color: #bf49af;
+  background-color: #dc8bd2;
 }
 
 body {

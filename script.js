@@ -3,7 +3,7 @@
 //la variable "datos"
 
 async function getJson() {
-  const respuesta = await fetch("./productos.json");
+  const respuesta = await fetch("productos.json");
   const datos = await respuesta.json();
   return datos;
 }
