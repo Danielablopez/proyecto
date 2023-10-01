@@ -1,6 +1,8 @@
+
 // cree una funcion asincrona
+
 async function getJson() {
-  const respuesta = await fetch("./productos.json");
+  const respuesta = await fetch("productos.json");
   const datos = await respuesta.json();
   return datos;
 }
@@ -13,7 +15,7 @@ document.addEventListener("DOMContentLoaded", () => {
     if (datosProductos) {
       localStorage.setItem("productos", JSON.stringify(datosProductos));
       datosProductos.productos.forEach((producto) => {
-        // 1- crear uhn div para cada producto
+        // 1- crear un div para cada producto
         const gridItem = document.createElement("div");
         // 2 agregar la clase nombre al div que contiene el nombre
         gridItem.classList.add("grid-item");
@@ -40,6 +42,8 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   });
 });
+
+
 
 function mostrarDetallesProductos(producto) {
   //redireccionar a otra pagina para mostrar los detalles
